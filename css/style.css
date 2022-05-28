@@ -146,19 +146,18 @@ body, section, div, h1, h2, h3, h4,h5 p, a{
 }
 .quote-main{
     background-color: var(--clr-quote-bg-color);
-    height: 400px;
+    height: 300px;
 }
-#quote{
-    font-weight: 100;
+blockquote{
+    font-weight: lighter;
     margin-left: 7rem;
     margin-right: 7rem;
     font-size: 36px;
+    padding-top:2rem;
     color: var(--clr-info-header-color);
     font-style: italic;
-    margin-left: 7rem;
-    margin-right: 7rem;
-    margin-top: 3rem;
 }
+
 .person{
     float: right;
     margin-left: 7rem;
@@ -205,14 +204,17 @@ body, section, div, h1, h2, h3, h4,h5 p, a{
 .call-back-description{
     color: var(--clr-quote-bg-color);
     font-weight: lighter;
+    font-weight: 300;
 }
 .footer{
     background-color: var(--clr-primary);
+    padding: 0;
 }
 .footer-text{
     padding-top: 3rem;
     padding-bottom: 3rem;
     color:var(--clr-secondary);
+    margin-bottom:0;
 }
 .footer-text a{
     padding-left: 0.5rem;
