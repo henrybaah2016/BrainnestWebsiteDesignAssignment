@@ -216,7 +216,6 @@ body, section, div, h1, h2, h3, h4,h5 p, a{
 }
 .footer{
     background-color: var(--clr-primary);
-
 }
 .footer-text{
     padding-top: 3rem;
