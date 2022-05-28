@@ -10,11 +10,9 @@
     --clr-info-header-color:#1f2937;
     --clr-quote-bg-color:#e5e7eb;
 }
-
 body, section, div, h1, h2, h3, h4,h5 p, a{
     font-family: "roboto",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 .hero{
     background-color: var(--clr-primary);
     height: 550px
@@ -39,11 +37,9 @@ body, section, div, h1, h2, h3, h4,h5 p, a{
 #nav-item:first-child{
     margin-right: auto;
     margin-left: 6rem;
-
 }
 #nav-item:last-child{
     margin-right: 7rem;
-
 }
 #logo-text{
     color:var(--clr-logo-text-color)!important;
@@ -59,7 +55,6 @@ body, section, div, h1, h2, h3, h4,h5 p, a{
 .hero-text:first-child{
     margin-right: auto;
     margin-left: 7rem;
-
 }
 .hero-main-text{
     font-size: 48px;
@@ -73,8 +68,6 @@ body, section, div, h1, h2, h3, h4,h5 p, a{
     font-weight: normal;
     color: var(--clr-secondary);
     line-height:1.6rem;
-
-
 }
 .hero-image{
     margin-right: 5rem;
@@ -89,8 +82,7 @@ body, section, div, h1, h2, h3, h4,h5 p, a{
     padding-right: 40px;
     border-radius: 5px;
     color: var(--clr-secondary);
-    font-size: 18px;
-    
+    font-size: 18px;  
 }
 #sign-up-action:hover{
     background: var(--clr-call-to-action-btn);
@@ -153,9 +145,8 @@ body, section, div, h1, h2, h3, h4,h5 p, a{
 }
 .quote-main{
     background-color: var(--clr-quote-bg-color);
-    height: 300px;
+    height: 400px;
 }
-
 #quote{
     font-weight: 100;
     margin-left: 7rem;
