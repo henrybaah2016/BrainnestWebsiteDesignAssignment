@@ -1,0 +1,19 @@
+
+.quote-main{
+    background-color: var(--clr-quote-bg-color);
+    height: 300px;
+}
+blockquote{
+    font-weight: lighter;
+    margin: 0 7rem 0 7rem;
+    font-size: 36px;
+    padding-top:2rem;
+    color: var(--clr-info-header-color);
+    font-style: italic;
+}
+
+.person{
+    float: right;
+    margin: 3rem 7rem 0 7rem;
+
+}

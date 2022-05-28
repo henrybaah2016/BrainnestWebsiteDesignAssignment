@@ -1,0 +1,21 @@
+
+.info-header{
+    font-size: 36px;
+    color: var(--clr-info-header-color);
+    display: flex;
+    justify-content: center;
+    margin: 8rem 0 5rem 0;
+}
+.main-info{
+    background-color: white;
+    box-shadow: 0px 0px 10px var(--secondary);
+    margin: 0 5rem 0 6rem;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.info-content{
+    margin: 1rem 0.5rem 4rem 0.5rem;
+    font-size:15px;
+}

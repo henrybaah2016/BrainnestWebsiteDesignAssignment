@@ -1,0 +1,35 @@
+
+.call-back-main{
+    background-color: var(--clr-call-to-action-btn);
+    margin: 0;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 5rem 7rem 5rem 7rem;
+    border-radius: 5px;;
+}
+.call-back-sub:first-child{
+    margin: 0 auto 0 6rem
+}
+.call-back-btn-main:last-child{
+    margin-right: 7rem;
+}
+#call-back-action{
+    background: var(--clr-call-to-action-btn);
+    border: none;
+    padding: 10px 40px 10px 40px;
+    border: 2px solid var(--clr-quote-bg-color);
+    color: var(--clr-secondary);
+    font-size: 18px;
+}
+.call-back-text{
+    font-size: 24px;
+    color: var(--clr-quote-bg-color);
+    font-weight: 600;
+}
+.call-back-description{
+    color: var(--clr-quote-bg-color);
+    font-weight: lighter;
+    font-weight: 300;
+}

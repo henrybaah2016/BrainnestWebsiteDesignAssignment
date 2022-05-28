@@ -1,0 +1,92 @@
+
+.hero{
+    background-color: var(--clr-primary);
+    height: 550px
+}
+.nav-list{
+    background-color: var(--clr-primary);
+    margin: 0;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#nav-item{
+    list-style: none;
+    margin-right: 2rem;
+}
+#nav-item a{
+    text-decoration:none;
+    font-size:18px;
+    color: var(--clr-secondary);
+} 
+#nav-item:first-child{
+    margin: 0 auto 0 6rem;
+}
+#nav-item:last-child{
+    margin-right: 7rem;
+}
+#logo-text{
+    color:var(--clr-logo-text-color)!important;
+    font-size:24px!important;
+} 
+.hero-main{
+    margin: 0;
+    padding: 0rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.hero-text:first-child{
+    margin: 0 auto 0 7rem;
+}
+.hero-main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: var(--clr-logo-text-color);
+    margin: 0;
+    line-height:3.5rem;
+}
+.hero-secondary-text{
+    font-size: 18px;
+    font-weight: normal;
+    color: var(--clr-secondary);
+    line-height:1.6rem;
+}
+.hero-image{
+    margin:3rem 5rem 0 0;
+}
+#sign-up-action{
+    background: var(--clr-call-to-action-btn);
+    border: none;
+    padding: 15px 40px 15px 40px;
+    border-radius: 5px;
+    color: var(--clr-secondary);
+    font-size: 18px;  
+}
+#sign-up-action:hover{
+    background: var(--clr-call-to-action-btn);
+    border: none;
+    padding: 15px 40px 15px 40px;
+    color: var(--clr-secondary);
+    font-size: 18px;
+    border: 2px solid var(--clr-secondary);
+    background: var(--clr-primary);
+}
+#consultation-action{
+    background: var(--clr-call-to-action-btn);
+    border: none;
+    padding: 15px 40px 15px 40px;
+    border-radius: 5px;
+    color: var(--clr-secondary);
+    font-size: 18px;
+}
+#consultation-action:hover{
+    background: var(--clr-call-to-action-btn);
+    border: none;
+    padding: 15px 40px 15px 40px;
+    color: var(--clr-secondary);
+    font-size: 18px;
+    border: 2px solid var(--clr-secondary);
+    background: var(--clr-primary);
+}
